@@ -1,0 +1,146 @@
+.ham{
+    display: none;
+}
+.enlaces-menu{
+    display: flex;
+    opacity: unset;
+
+}
+nav{
+    flex-direction: row;
+    align-items: center;
+}
+.header-header img{
+    margin-bottom: 0;
+}
+
+.enlaces-menu{
+    display: flex;
+    padding: 0;
+    width: 70%;
+    flex-direction: row;
+}
+.enlaces-menu li{
+    width: 16%;
+}
+
+
+.header-header .img-arrowlight{
+    width: 10%;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+.button-login{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-left: 16rem;
+}
+.button-sign{
+    background: white;
+    color: var(--Light-red);
+    width: 80%;
+    margin-left: 14rem;
+}
+
+.button-sign:hover{
+    background-color: var(--kVery-light-red);
+    color: white;
+}
+
+.enlaces-menu li a{
+    color: white;
+}
+.enlaces-menu li a:hover{
+    text-decoration: underline;
+}
+.header-header .enlaces-menu .connect .a-connect{
+    color: white;
+}
+
+.enlace-connect.activado{
+    position: absolute;
+    width: 11%;
+    background-color: white;
+
+}
+
+
+.future{
+    padding-bottom: 6rem;
+}
+
+
+
+.future-content{
+    display: flex;
+}
+.future-content-img{
+    width: 50%;
+    order: 2;
+    
+}
+.future-content-text{
+    width: 50%;
+}
+.future h2, p{
+    text-align: left;
+}
+.future .tittle-future{
+    text-align: center;
+}
+
+.state{
+    height: 20rem;
+}
+
+.state-content{
+    display: flex;
+}
+.state-content-img{
+    width: 50%;
+}
+.state-content-text{
+    width: 50%;
+    top: -12rem;
+}
+.state__img{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-position: -3000% 80%;
+    background-size: 99%;
+    height: 20rem;
+}
+.state img {
+    top: -14rem;
+}
+.state h2,p{
+    text-align: left;
+}
+.free-content{
+    display: flex;
+}
+.free-img{
+    width: 50%;
+}
+.free-text{
+    width: 50%;
+    margin-top: 4rem;
+}
+footer{
+    display: flex;
+
+}
+footer section{
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+.footer-logo{
+    margin-left: 5rem;
+}
+.footer img {
+    width: 40%;
+}
